@@ -1,0 +1,92 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap');
+/*Global*/
+/* Propiedades Personalizadas */
+:root{
+    --main-links-color: #676666;
+    --main-text-color: #676666;
+    --main-bgcolor: #fbfbfb;
+    --primary-font-family: 'Poppins', sans-serif;
+    --font-weight-100: 100;
+    --font-weight-300: 200;
+    --font-weight-500: 300;
+}
+body, h2, ul,figure,p{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #676666;
+}
+li{
+    list-style: none;
+}
+/*Incio del Reto*/
+
+body {
+    background-color: var(--main-bgcolor);
+    padding: 28px;
+    font-family: var(--primary-font-family);
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-section-logo img {
+    height: 55px;
+    width: auto;
+}
+
+.header-section-content {
+    display: flex;
+}
+
+.header-section-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 20px;
+    margin-right: 28px;
+}
+
+.header-section-social a {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: var(--main-links-color);
+    font-size: 18px;
+    font-weight: var(--font-weight-500);
+}
+
+.header-section-slide {
+    flex-grow: 2;
+    display: flex;
+}
+
+.header-section-slide-item {
+    flex-basis: 386px;
+    height: 692px;
+}
+
+.header-section-slide-item:nth-child(1) {
+    background-image: url("../images/slide_1.jpg");
+}
+
+.header-section-slide-item:nth-child(2) {
+    background-image: url("../images/slide_2.jpg");
+}
+
+.header-section-slide-item:nth-child(3) {
+    background-image: url("../images/slide_3.jpg");
+}
+
+.header-section-slide-item:nth-child(4) {
+    background-image: url("../images/slide_4.jpg");
+}
+
+.header-section-bottom {
+    margin-top: 25px;
+    font-size: var(--font-weight-100);
+}

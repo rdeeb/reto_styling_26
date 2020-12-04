@@ -1,0 +1,20 @@
+Guía de Estilos
+
+Detalles de los colores y la tipografía están creados en las variables CSS, mira el archivo "style.css".
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600&display=swap');
+
+:root{
+    --main-links-color: #676666;
+    --main-text-color: #676666;
+    --main-bgcolor: #fbfbfb;
+    --primary-font-family: 'Poppins', sans-serif;
+    --font-weight-100: 100;
+    --font-weight-300: 200;
+    --font-weight-500: 300;
+}
+
+La imagen "header_final.png" es la referencia visual de cómo debe quedar al final el proyecto.
+
+Gracias por participar.
+Te deseamos los mejor.
